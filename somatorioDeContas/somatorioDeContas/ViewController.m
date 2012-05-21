@@ -14,9 +14,9 @@
 
 @implementation ViewController
 
-@synthesize valorConta;
-@synthesize numeroDeContas;
-@synthesize totalContas;
+@synthesize valorDoGasto;
+@synthesize numeroDeGastos;
+@synthesize totalDosGastos;
 
 - (void)viewDidLoad{
     [super viewDidLoad];
@@ -25,12 +25,12 @@
 }
 
 -(void)addConta:(id)sender{
-    [gastos addGastoFromString: valorConta.text];
-    valorConta.text = @"";
+    [gastos addGastoFromString: valorDoGasto.text];
+    valorDoGasto.text = @"";
     
-    numeroDeContas.text = [NSString stringWithFormat:@"%i", [gastos totalDeGastos]];  
+    numeroDeGastos.text = [NSString stringWithFormat:@"%i", [gastos totalDeGastos]];  
     
-    totalContas.text = [[gastos somaDosGastos]stringValue];
+    totalDosGastos.text = [[gastos somaDosGastos]stringValue];
 }
 
 //MÉTODOS GERADOS

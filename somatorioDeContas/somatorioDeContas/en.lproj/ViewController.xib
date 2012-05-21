@@ -263,27 +263,27 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">valorConta</string>
+						<string key="label">valorDoGasto</string>
 						<reference key="source" ref="372490531"/>
 						<reference key="destination" ref="622086015"/>
 					</object>
-					<int key="connectionID">16</int>
+					<int key="connectionID">20</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">numeroDeContas</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="156115301"/>
-					</object>
-					<int key="connectionID">17</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">totalContas</string>
+						<string key="label">totalDosGastos</string>
 						<reference key="source" ref="372490531"/>
 						<reference key="destination" ref="656970259"/>
 					</object>
-					<int key="connectionID">18</int>
+					<int key="connectionID">21</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">numeroDeGastos</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="156115301"/>
+					</object>
+					<int key="connectionID">22</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -383,7 +383,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">19</int>
+			<int key="maxID">22</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -402,21 +402,21 @@
 						</object>
 					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="numeroDeContas">UILabel</string>
-						<string key="totalContas">UILabel</string>
-						<string key="valorConta">UITextField</string>
+						<string key="numeroDeGastos">UILabel</string>
+						<string key="totalDosGastos">UILabel</string>
+						<string key="valorDoGasto">UITextField</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="numeroDeContas">
-							<string key="name">numeroDeContas</string>
+						<object class="IBToOneOutletInfo" key="numeroDeGastos">
+							<string key="name">numeroDeGastos</string>
 							<string key="candidateClassName">UILabel</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="totalContas">
-							<string key="name">totalContas</string>
+						<object class="IBToOneOutletInfo" key="totalDosGastos">
+							<string key="name">totalDosGastos</string>
 							<string key="candidateClassName">UILabel</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="valorConta">
-							<string key="name">valorConta</string>
+						<object class="IBToOneOutletInfo" key="valorDoGasto">
+							<string key="name">valorDoGasto</string>
 							<string key="candidateClassName">UITextField</string>
 						</object>
 					</dictionary>

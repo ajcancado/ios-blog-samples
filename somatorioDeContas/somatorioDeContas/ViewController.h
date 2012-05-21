@@ -15,7 +15,7 @@
 }
 
 -(IBAction)addConta:(id)sender;
-@property (nonatomic,retain) IBOutlet UILabel* totalContas;
-@property (nonatomic,retain) IBOutlet UILabel* numeroDeContas;
-@property (nonatomic,retain) IBOutlet UITextField* valorConta;
+@property (nonatomic,retain) IBOutlet UILabel* totalDosGastos;
+@property (nonatomic,retain) IBOutlet UILabel* numeroDeGastos;
+@property (nonatomic,retain) IBOutlet UITextField* valorDoGasto;
 @end
