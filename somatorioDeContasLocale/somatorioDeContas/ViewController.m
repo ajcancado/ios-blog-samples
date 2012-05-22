@@ -9,7 +9,8 @@
 #import "ViewController.h"
 #import "Gastos.h"
 
-@interface ViewController ()
+@interface ViewController (private)
+-(NSString*) formatarTotalGastos;
 @end
 
 @implementation ViewController
@@ -30,7 +31,16 @@
     
     numeroDeGastos.text = [NSString stringWithFormat:@"%i", [gastos totalDeGastos]];  
     
-    totalDosGastos.text = [[gastos somaDosGastos]stringValue];
+    totalDosGastos.text = [self formatarTotalGastos];
+}
+-(NSString*) formatarTotalGastos{
+    id somatorioGastos = [gastos somaDosGastos];
+    
+    NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"pt_BR"];
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc]init];
+    [formatter setLocale: locale];
+    [formatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+    return [formatter stringFromNumber:somatorioGastos];
 }
 
 //MÉTODOS GERADOS
