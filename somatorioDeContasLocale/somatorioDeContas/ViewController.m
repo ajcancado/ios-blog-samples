@@ -24,6 +24,12 @@
 
     gastos = [[Gastos alloc]init];
 }
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event 
+{
+    [valorDoGasto resignFirstResponder];
+
+    [super touchesBegan:touches withEvent:event];
+}
 
 -(void)addGasto:(id)sender{
     [gastos addGastoFromString: valorDoGasto.text];
@@ -42,6 +48,14 @@
     [formatter setNumberStyle:NSNumberFormatterCurrencyStyle];
     return [formatter stringFromNumber:somatorioGastos];
 }
+
+//TextField Delegate
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{ 
+    [textField resignFirstResponder];
+    return NO;
+}
+
 
 //MÉTODOS GERADOS
 - (void)viewDidUnload{

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Gastos.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate>
 {
     Gastos* gastos;
 }
