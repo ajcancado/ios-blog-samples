@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7333F96815694A7C00E3E407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7333F96715694A7C00E3E407 /* UIKit.framework */; };
+		7333F96A15694A7C00E3E407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7333F96915694A7C00E3E407 /* Foundation.framework */; };
+		7333F96C15694A7C00E3E407 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7333F96B15694A7C00E3E407 /* CoreGraphics.framework */; };
+		7333F97215694A7C00E3E407 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7333F97015694A7C00E3E407 /* InfoPlist.strings */; };
+		7333F97415694A7C00E3E407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7333F97315694A7C00E3E407 /* main.m */; };
+		7333F97815694A7C00E3E407 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7333F97715694A7C00E3E407 /* AppDelegate.m */; };
+		7333F97B15694A7C00E3E407 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7333F97A15694A7C00E3E407 /* ViewController.m */; };
+		7333F97E15694A7C00E3E407 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7333F97C15694A7C00E3E407 /* ViewController.xib */; };
+		7333F98715694C0600E3E407 /* Gastos.m in Sources */ = {isa = PBXBuildFile; fileRef = 7333F98615694C0600E3E407 /* Gastos.m */; };
+		73F9789515805B9E00922F26 /* ListaDeValoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F9789315805B9E00922F26 /* ListaDeValoresViewController.m */; };
+		73F9789615805B9E00922F26 /* ListaDeValores.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73F9789415805B9E00922F26 /* ListaDeValores.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7333F96315694A7C00E3E407 /* somatorioDeContas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = somatorioDeContas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7333F96715694A7C00E3E407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7333F96915694A7C00E3E407 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7333F96B15694A7C00E3E407 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7333F96F15694A7C00E3E407 /* somatorioDeContas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "somatorioDeContas-Info.plist"; sourceTree = "<group>"; };
+		7333F97115694A7C00E3E407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7333F97315694A7C00E3E407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7333F97515694A7C00E3E407 /* somatorioDeContas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "somatorioDeContas-Prefix.pch"; sourceTree = "<group>"; };
+		7333F97615694A7C00E3E407 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7333F97715694A7C00E3E407 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7333F97915694A7C00E3E407 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7333F97A15694A7C00E3E407 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7333F97D15694A7C00E3E407 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7333F98515694C0600E3E407 /* Gastos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gastos.h; sourceTree = "<group>"; };
+		7333F98615694C0600E3E407 /* Gastos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gastos.m; sourceTree = "<group>"; };
+		73F9789215805B9E00922F26 /* ListaDeValoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaDeValoresViewController.h; sourceTree = "<group>"; };
+		73F9789315805B9E00922F26 /* ListaDeValoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaDeValoresViewController.m; sourceTree = "<group>"; };
+		73F9789415805B9E00922F26 /* ListaDeValores.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaDeValores.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7333F96015694A7C00E3E407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7333F96815694A7C00E3E407 /* UIKit.framework in Frameworks */,
+				7333F96A15694A7C00E3E407 /* Foundation.framework in Frameworks */,
+				7333F96C15694A7C00E3E407 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7333F95815694A7B00E3E407 = {
+			isa = PBXGroup;
+			children = (
+				7333F98415694BD600E3E407 /* Classes */,
+				7333F96D15694A7C00E3E407 /* somatorioDeContas */,
+				7333F96615694A7C00E3E407 /* Frameworks */,
+				7333F96415694A7C00E3E407 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7333F96415694A7C00E3E407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7333F96315694A7C00E3E407 /* somatorioDeContas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7333F96615694A7C00E3E407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7333F96715694A7C00E3E407 /* UIKit.framework */,
+				7333F96915694A7C00E3E407 /* Foundation.framework */,
+				7333F96B15694A7C00E3E407 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7333F96D15694A7C00E3E407 /* somatorioDeContas */ = {
+			isa = PBXGroup;
+			children = (
+				7333F97615694A7C00E3E407 /* AppDelegate.h */,
+				7333F97715694A7C00E3E407 /* AppDelegate.m */,
+				7333F97915694A7C00E3E407 /* ViewController.h */,
+				7333F97A15694A7C00E3E407 /* ViewController.m */,
+				7333F97C15694A7C00E3E407 /* ViewController.xib */,
+				73F9789215805B9E00922F26 /* ListaDeValoresViewController.h */,
+				73F9789315805B9E00922F26 /* ListaDeValoresViewController.m */,
+				73F9789415805B9E00922F26 /* ListaDeValores.xib */,
+				7333F96E15694A7C00E3E407 /* Supporting Files */,
+			);
+			path = somatorioDeContas;
+			sourceTree = "<group>";
+		};
+		7333F96E15694A7C00E3E407 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7333F96F15694A7C00E3E407 /* somatorioDeContas-Info.plist */,
+				7333F97015694A7C00E3E407 /* InfoPlist.strings */,
+				7333F97315694A7C00E3E407 /* main.m */,
+				7333F97515694A7C00E3E407 /* somatorioDeContas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7333F98415694BD600E3E407 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7333F98515694C0600E3E407 /* Gastos.h */,
+				7333F98615694C0600E3E407 /* Gastos.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7333F96215694A7C00E3E407 /* somatorioDeContas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7333F98115694A7C00E3E407 /* Build configuration list for PBXNativeTarget "somatorioDeContas" */;
+			buildPhases = (
+				7333F95F15694A7C00E3E407 /* Sources */,
+				7333F96015694A7C00E3E407 /* Frameworks */,
+				7333F96115694A7C00E3E407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = somatorioDeContas;
+			productName = somatorioDeContas;
+			productReference = 7333F96315694A7C00E3E407 /* somatorioDeContas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7333F95A15694A7B00E3E407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Vinicius Quaiato";
+			};
+			buildConfigurationList = 7333F95D15694A7B00E3E407 /* Build configuration list for PBXProject "somatorioDeContas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7333F95815694A7B00E3E407;
+			productRefGroup = 7333F96415694A7C00E3E407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7333F96215694A7C00E3E407 /* somatorioDeContas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7333F96115694A7C00E3E407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7333F97215694A7C00E3E407 /* InfoPlist.strings in Resources */,
+				7333F97E15694A7C00E3E407 /* ViewController.xib in Resources */,
+				73F9789615805B9E00922F26 /* ListaDeValores.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7333F95F15694A7C00E3E407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7333F97415694A7C00E3E407 /* main.m in Sources */,
+				7333F97815694A7C00E3E407 /* AppDelegate.m in Sources */,
+				7333F97B15694A7C00E3E407 /* ViewController.m in Sources */,
+				7333F98715694C0600E3E407 /* Gastos.m in Sources */,
+				73F9789515805B9E00922F26 /* ListaDeValoresViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7333F97015694A7C00E3E407 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7333F97115694A7C00E3E407 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7333F97C15694A7C00E3E407 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7333F97D15694A7C00E3E407 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7333F97F15694A7C00E3E407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7333F98015694A7C00E3E407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7333F98215694A7C00E3E407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "somatorioDeContas/somatorioDeContas-Prefix.pch";
+				INFOPLIST_FILE = "somatorioDeContas/somatorioDeContas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7333F98315694A7C00E3E407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "somatorioDeContas/somatorioDeContas-Prefix.pch";
+				INFOPLIST_FILE = "somatorioDeContas/somatorioDeContas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7333F95D15694A7B00E3E407 /* Build configuration list for PBXProject "somatorioDeContas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7333F97F15694A7C00E3E407 /* Debug */,
+				7333F98015694A7C00E3E407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7333F98115694A7C00E3E407 /* Build configuration list for PBXNativeTarget "somatorioDeContas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7333F98215694A7C00E3E407 /* Debug */,
+				7333F98315694A7C00E3E407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7333F95A15694A7B00E3E407 /* Project object */;
+}
